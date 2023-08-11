@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1> FORMS </h1>
+    <table border="2px">
+    <fieldset>
+        <legend>Forms</legend>
+        <form>
+            <pre>
+                <label for="name">Name:</label> <input type="text" required name="name"><br>
+                <label for="email">Email</label> <input type="email" required name="email"><br>
+               <label for="investment">Investment</label><input list="investment">
+               <datalist id="investment">
+                        <option value="Less than one lakh"></option>
+                        <option value="More than one lakh"></option>
+               </datalist><br>
+                <label for="birthday">Date joined</label><input type="date"  name="birthday"><br>
+                <label for ="active">Active</label>
+                <input type="checkbox"><br>
+                <input type="submit" value="OK"><input type="reset" value="CANCEL">
+            </pre>
+            </fieldset>
+            </table>       
+</body>
+</html>
